@@ -33,6 +33,7 @@ namespace computeHash
             }
             string r = result.ToString();
             Console.WriteLine("the hash is " + r);
+            Console.Read();
         }
     }
 }
